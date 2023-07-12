@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: docker/node/Dockerfile
-    container_name: docker-vuejs-node
+    container_name: memes-vuejs-node
     volumes:
       - .:/var/www/html:cached
     working_dir: /var/www/html

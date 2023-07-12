@@ -1,1 +1,2 @@
-docker run --rm -v "${PWD}:/$(basename `pwd`)" -w "/$(basename `pwd`)" -it node:16-alpine
+Runnig command line
+`docker run --rm -v "${PWD}:/app" -w "/app" -it node:alpine /bin/sh`
